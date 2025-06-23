@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/background">
+
+    <!-- RecyclerView for Ride List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
+
+
+    <Button
+        android:id="@+id/btnBookRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book a Ride"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnOfferRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer a Ride"
+        android:textSize="18sp"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Ride History"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="18sp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book a Ride"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pickup Location"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/etDrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Drop Location"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSearchRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Rides"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvAvailableRides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Rides:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
