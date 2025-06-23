@@ -32,49 +32,6 @@
 - ✅ Status for rides (active/completed)  
 
 ---
-
-## 📂 Project Structure
-
-GoPool/
-├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/com/example/gopool/
-│   │       │   ├── BookRideActivity.java
-│   │       │   ├── BookingConfirmationActivity.java
-│   │       │   ├── DatabaseHelper.java
-│   │       │   ├── HomeActivity.java
-│   │       │   ├── LoginActivity.java
-│   │       │   ├── MainActivity.java
-│   │       │   ├── MyBookedRidesActivity.java
-│   │       │   ├── OfferRideActivity.java
-│   │       │   ├── ProfileActivity.java
-│   │       │   ├── RegisterActivity.java
-│   │       │   ├── Ride.java
-│   │       │   ├── RideAdapter.java
-│   │       │   ├── RideDatabase.java
-│   │       │   ├── RideDetailsActivity.java
-│   │       │   ├── RideHistoryActivity.java
-│   │       │   └── RideRecyclerAdapter.java
-│   │       ├── res/
-│   │       │   ├── layout/
-│   │       │   ├── drawable/
-│   │       │   ├── mipmap/
-│   │       │   ├── values/
-│   │       │   └── xml/
-│   │       └── AndroidManifest.xml
-│   ├── build.gradle.kts
-│   └── proguard-rules.pro
-├── gradle/
-├── gradlew
-├── gradlew.bat
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
-
-
-
----
 ## 🧑‍💻 About Me
 
 **Saburi Kale** — Passionate about building practical mobile apps that solve real-life problems. Always learning, improving, and creating.
